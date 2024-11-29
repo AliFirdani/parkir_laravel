@@ -6,34 +6,51 @@
     <title>parkir</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
   </head>
-  <body>
+  <body class="bg-secondary-subtle">
 
-    <nav class="navbar navbar-expand-lg  bg-warning border-bottom border-body-tertiary">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="#">PARK.ing</a>
+      <nav class="navbar navbar-expand-lg bg-warning border-bottom border-body-tertiary">
+          <div class="container-fluid">
+              <a class="navbar-brand" href="#">PARK.ing</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
+        <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
           <a class="nav-link active" aria-current="page" href="#">BERANDA</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="halaman">LOGIN</a>
+          <a class="nav-link active" href="halaman">LOGIN</a>
           </li>
-
       </ul>
-      <form class="d-flex" role="search">
-        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-        <button class="btn btn-outline-success" type="submit">Search</button>
-      </form>
+      <
     </div>
   </div>
 </nav>
 
-<div class="position-absolute top-10 start-50 translate-middle-x">
- <div class="card" style="width: 20rem;">
+   <div id="carouselExampleFade" class="carousel slide carousel-fade position-absolute top-0 start-50 translate-middle">
+         <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="images/download.jpg" class="d-block w-50" alt="50">
+          </div>
+          <div class="carousel-item">
+            <img src="..." class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="..." class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+<div class="position-absolute top-49 start-50 translate-middle-x mt-5">
+    <div class="card" style="width: 50rem;">
   <div class="p-4 mb-3 bg-warning text-dark">
     <div class="card-body">
     <h5 class="card-title">Card title</h5>
