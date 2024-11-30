@@ -28,6 +28,17 @@
   </div>
 </nav>
 
+<div class="position-absolute top-49 start-50 translate-middle-x mt-5">
+    <div class="card" style="width: 50rem;">
+  <div class="p-4 mb-3 bg-warning text-dark">
+    <div class="card-body">
+    <h5 class="card-title">Card title</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <a href="#" class="btn btn-dark">Go somewhere</a>
+    </div>
+   </div>
+ </div>
+</div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
   </body>
 </html>
