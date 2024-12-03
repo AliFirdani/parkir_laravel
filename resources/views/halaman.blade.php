@@ -10,6 +10,11 @@
 
     <nav class="navbar navbar-expand-lg bg-warning border-bottom border-body-tertiary">
   <div class="container-fluid">
+
+    <a class="navbar-brand" href="#">
+        <img src="images/image.png" alt="" width="30" height="30">
+      </a>
+
     <a class="navbar-brand" href="#">PARK.ing Mobile</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -27,6 +32,20 @@
   </div>
 </nav>
 
+<div class="container text-center">
+    <div class="row">
+      <div class="col">
+        <img src="images/PARKIR.in.jpg" alt="" class="d-block w-50">
+      </div>
+      <div class="col">
+        <img src="images/Mobile.jpg" alt="" class="d-block w-50">
+      </div>
+      <div class="col">
+        <img src="images/parkiran.jpg" alt="" class="d-block w-51">
+      </div>
+    </div>
+  </div>
+
 <div class="position-absolute top-49 start-50 translate-middle-x mt-5">
     <div class="card" style="width: 50rem;">
   <div class="p-4 mb-3 bg-warning text-dark">
@@ -38,6 +57,10 @@
    </div>
  </div>
 </div>
+
+<div class="container text-center">
+    <div class="row">
+        <div class="col">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
   </body>
 </html>

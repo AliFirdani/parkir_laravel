@@ -31,12 +31,18 @@
     </div>
   </div>
 </nav>
-<div class="container text-center">
+
+
+
+<div class="container text-left">
     <div class="row">
         <div class="col">
-
+        <img src="images/PARKIR.in.jpg" width="70" height="70" alt="">
+        </div>
+        <div class="col">
+        <img src="images/parkiran.jpg" width="150" height="120" alt="">
+        </div>
     </div>
-    <img src="images/parkiran.jpg" class="d-block w-50" alt="">
 </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
